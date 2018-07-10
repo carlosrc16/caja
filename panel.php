@@ -13,19 +13,7 @@ include_once('includes/menu.php');
    <div class="col-md-10" id="cont">
       <h1 id="saludo">Bienvenido: <?php echo $Usuario; ?></h1>
       <br>
-      <table class="table table-striped">
-         <?php 
-           
-         ?>
-         <tr id="">
-            <td>Nombre</td>
-            <td>Puntos</td>
-            <td>Total</td>
-         </tr>
-         <tr>
-            <td id="res"></td>
-         </tr>
-      </table>
+      
    </div>
 </div>
 
