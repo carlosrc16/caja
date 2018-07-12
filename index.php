@@ -1,16 +1,14 @@
 <?php
-require('includes/config.php');
+require('config.php');
+include_once('includes/head.php');
 ?>
-<?php include_once('includes/head.php');?>
-<section class="container login-form">
+<section class="row-fluid login-form">
    <section>
       <form action="includes/login.php" method="post" role="login">
          <!--<img class="" id="iconogr" src="img/logo.png" alt="" width="60px" height="50px" />-->
          <p class="texto1">Caja</p>
          <br>
          <br>
-         
-
          <div class="form-group">
             <input type="text" name="email" id="email" required class="form-control" placeholder="Nombre del usuario" autocomplete="off"/>
             <span class="fas fa-user"></span>
@@ -26,5 +24,5 @@ require('includes/config.php');
       </form>
    </section>
 </section>
-
+<!--<?php //echo $caja; ?>/css/estilos.css; ?>-->
 <?php include_once('includes/footer.php');?>

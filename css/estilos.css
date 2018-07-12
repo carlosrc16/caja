@@ -1,22 +1,14 @@
-*{
-   -webkit-box-sizing:border-box;
-   -moz-box-sizing:border-box;
-   -box-sizing:border-box;
-   autline:none;
+body {
+   /* height: 100%;*/
+    margin: 0px;
+    padding: 0px;
+    background:#E9E9E9;/*#EAEAEA*//*#E9E9E9 bien*/
+    font-family: 'Fira Sans', sans-serif;
 }
-
-body, html{
-      height: 100%;
-      margin: 0px;
-   }
-body{
-   /*background: url(img/parallax1.jpg) no-repeat center;*/
-   -webkit-background-size:cover;
-   -moz-background-size:cover;
-   -o-background-size:cover;
-   background-size: cover;
+html{
+   height: 100%;
 }
-
+/*----Login----*/
 .login-form{
    text-align: center;
    margin: 0 auto;
@@ -26,33 +18,33 @@ body{
 }
 
 /*.login-form > section{
-   padding: 15px 15px 35px 25px;
-   border-radius: 5px;
+padding: 15px 15px 35px 25px;
+border-radius: 5px;
 }*/
 
 form[role=login]{
-   font:14px/2.2em Lato, serif;
+   font:14px/2.2em;/* Lato, serif*/
    color: #737C83;
    margin-top: 50px;
-   max-width: 380px;
+   max-width: 400px;
    padding: 15px 35px 45px;
    border-radius: 7px;
    border:1px solid #DFDFDF;
-   /*box-shadow: 1px 1px 5px 5px #A9A9A9;
-   -webkit-box-shadow: 1px 1px 5px 5px #A9A9A9;
-   -moz-box-shadow: 1px 1px 5px 5px #A9A9A9;*/
+/*box-shadow: 1px 1px 5px 5px #A9A9A9;
+-webkit-box-shadow: 1px 1px 5px 5px #A9A9A9;
+-moz-box-shadow: 1px 1px 5px 5px #A9A9A9;*/
 }
 
 form[role=login] input, form[role=login] > button{
-   font-family: 'Days One', sans-serif;
+   /*font-family: 'Days One', sans-serif;*/
    font-size: 15px;
    border-radius: 7px;
    height: 2.6em;
    padding: 10px 40px;
    border-radius: 3px;
-   -wibkit-box-shadow: inset 0 0 1px 1px rgba(150,150,150, .1);
+   /*-wibkit-box-shadow: inset 0 0 1px 1px rgba(150,150,150, .1);
    -moz-box-shadow: inset 0 0 1px 1px rgba(150, 150, 150, .1);
-   box-shadow: inset 0 0 1px 1px rgba(150, 150, 150, .1);
+   box-shadow: inset 0 0 1px 1px rgba(150, 150, 150, .1);*/
 }
 
 form[role=login] > div {
@@ -83,7 +75,7 @@ form[role=login] > button {
 
 .texto1{
    position: relative;
-   font-family: 'Days One', sans-serif;
+   /*font-family: 'Days One', sans-serif;*/
    font-size: 30px;
    color:#454545;
    top:7px;
@@ -97,32 +89,34 @@ form[role=login] > button {
 #btnLogin:hover{
    background: #1973BE;
 }
-/*ESTILOS LOGIN*/
-#contenedor{
-   margin:0px;
-   height: 100%;
-   
-}
+/*----Fin Login----*/
+
 #saludo{
-   font-family: 'Overpass', sans-serif;
+   /*font-family: 'Overpass', sans-serif;*/
    font-size: 30px;
    color:#454545;
 }
 
 ul li a , #nomProy{
-   font-family: 'Roboto', sans-serif;
-   font-size: 15px;
+   /*font-family: 'Roboto', sans-serif;*/
+   font-size: 20px;
 }
-.activa{
-   background:#ccc;
+
+ul li a:hover{
+  font-size: 21px;
+  color:#A0A0A0;
 }
 .navbar{
    background:#E8E9E9;
    margin-bottom: 0px;
+   border-radius: 0px;
+}
+#menu{
+   border-bottom: 2px solid #CACACA;
 }
 .salir{
    position: absolute;
-   right: 0;
+   right:0;
    top: 18%;
    padding: 8px 0 0 17px;
    font-size:17px;
@@ -130,47 +124,145 @@ ul li a , #nomProy{
 }
 
 /*CONTENEDOR*/
-@media only screen and (min-width : 480px) and (max-width : 700px) {
+#contenedor{
+   /*height: 100%;*/
+   left:0px;
+   right:0px;
+   top:0px;
+   bottom:0px;
+}
 #cols{
    margin:0px;
    padding: 0px;
-   height: 20px;
+   height: 100%;
+   border-radius: 0px;
+   background:#eee;
+   /*border-right: 2px solid #CACACA;*/
+   
+}
+#cont{
+   background:#E9E9E9;
+   height: 100%;
+   /*margin:0px;
+   padding: 0px;*/
+   border-radius: 0px;
+   
+   
+}
+#tdo-mnu{
+   /*padding: 0px;
+   margin: 0px;*/
 }
 
+#cnt-m{
+   padding: 0px;
+   margin: 0px;
+}
+#cnt-m1{
+   padding: 0px;
+   margin: 0px;
 }
 
 /*Menu vertical*/
-#cols{
-   margin:0px;
-   padding: 0px;
-   height: 100%;
-}
-#cont{
-   background:#fff;
-   height: 100%;
-}
 .vertical-menu {
-      width: 100%; /* Set a width if you like */
-      background: #E8E9E9;
-      /* Full height */
-      height: 100%; 
+   width: 100%; /* Set a width if you like */
+   /*background:#E8E9E9 ;*//*#E8E9E9*/
+   /* Full height */
+   /*height: 100%;*/
+   border-radius: 0px;
+
+}
+.vertical-menu ul li{
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+   /*box-shadow: 0 0 15px 10px #C1C0C0;*/
+}
+
+.vertical-menu a {
+   background-color: #E8E9E9; /* Grey background color */
+   color: #7F7F7F; /* Black text color */
+   display: block; /* Make the links appear below each other */
+   padding: 12px; /* Add some padding */
+   text-decoration: none; /* Remove underline from links */
+   /*font-family: 'Roboto', sans-serif;*/
+   font-size: 20px;
+}
+
+#cnt-m1 a:hover {
+   
+  /*border-left: 5px solid #d19b3d;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+  border-radius: 0px;*/
+  font-size: 21px;
+  color:#7C7C7C;
+}
+
+.vertical-menu a.active {
+   background-color: #E8E9E9;
+   color:#454545;
+}
+
+.btn-abajo{
+  display: block;
+  width: 22px;
+  height: 15px;
+  
+  border-radius: 1px;
+}
+
+
+
+@media screen and (max-width:490px){/*767*/ 
+   #cols{
+      margin:0px;
+      padding: 0px;
+      bottom: 0px;
+      height: 100%;
+   }
+   #cont{
+      top:0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      margin-top: 0px;
+      height: 100%;
+      
+   }
+   #contenedor{
+      background: #D2D1D1;
+      padding: 0px;
+      margin: 0px;
+      height: 100%;
+   }
+   #vertical{
+      padding: 0px;
+      margin: 0px;
+      margin-bottom: 0px;
    }
 
-   .vertical-menu a {
-      background-color: #E8E9E9; /* Grey background color */
-      color: black; /* Black text color */
-      display: block; /* Make the links appear below each other */
-      padding: 12px; /* Add some padding */
-      text-decoration: none; /* Remove underline from links */
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
+   .navbar{
+      margin-bottom: 0px;
+   }
+   /*#ct{
+      
+      margin: 0px;
+      padding: 0px;
+   }*/
+
+   #tdo-mnu{
+   padding: 0px;
+   margin: 0px;
    }
 
-   .vertical-menu a:hover {
-      background-color: #ccc;
+   #cnt-m1 a{
+      padding: 10px;
+      margin: 10px;
    }
 
-   .vertical-menu a.active {
-      background-color: #E8E9E9;
-      color:#454545;
-   }
+
+}

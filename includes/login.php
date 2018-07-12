@@ -1,5 +1,5 @@
 <?php
-require('config.php');
+require('../config.php');
 session_start();
 $usuario = $_POST['email'];
 $pass = $_POST['password'];
