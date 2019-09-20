@@ -21,7 +21,7 @@ include_once('includes/head.php');
 
          <button type="cubmit" name="go" class="btn btn-primary btn-block" id="btnLogin">Ingresar&nbsp;&nbsp;<span class="fas fa-sign-in-alt"></span></button>
          <!--<a href="#">Sistema diseñado</a> por <a href="#">CarlosRdz</a> -->
-         simon simon simon simono
+         simon simon simon simono simon
       </form>
    </section>
 </section>
